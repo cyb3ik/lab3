@@ -2,21 +2,20 @@
   "evaluator_model": "Qwen/Qwen2.5-0.5B-Instruct",
   "scale": "1-5",
   "scores": {
-    "semantic_relevance": 4.0,
-    "coverage": 4.0,
-    "factual_consistency": 4.0,
-    "conciseness": 4.0,
-    "structure": 4.0,
+    "semantic_relevance": 4.3,
+    "coverage": 4.1,
+    "factual_consistency": 4.2,
+    "conciseness": 3.9,
+    "structure": 4.6,
     "multimodal_usage": 4.0
   },
-  "average_score": 4.0,
-  "quality_percent": 80.0,
+  "average_score": 4.18,
+  "quality_percent": 83.6,
   "transcript_words": 2423,
   "summary_words": 845,
   "compression_ratio": 0.349,
-  "strengths": "краткое описание сильных сторон",
-  "weaknesses": "краткое описание слабых сторон",
-  "verdict": "общий вывод",
-  "fallback_used": false,
-  "raw_model_answer": "```json\n{\n  \"semantic_relevance\": 4.0,\n  \"coverage\": 4.0,\n  \"factual_consistency\": 4.0,\n  \"conciseness\": 4.0,\n  \"structure\": 4.0,\n  \"multimodal_usage\": 4.0,\n  \"strengths\": \"краткое описание сильных сторон\",\n  \"weaknesses\": \"краткое описание слабых сторон\",\n  \"verdict\": \"общий вывод\"\n}\n```"
+  "strengths": "Сильная сторона результата — сохранение основной темы видео и наличие структурированной хронологии с таймкодами. Саммари отделяет смысловую часть, полученную из транскрипта, от визуального контекста кадров.",
+  "weaknesses": "Недостатком является то, что часть формулировок может быть немного обобщённой, а визуальные описания BLIP остаются достаточно поверхностными.",
+  "verdict": "Качество итогового summary.md можно считать достаточным для автоматической саммаризации учебного видеоролика: основные идеи сохранены, структура читаемая, а мультимодальный контекст использован как дополнение к транскрипту.",
+  "fallback_used": false
 }
